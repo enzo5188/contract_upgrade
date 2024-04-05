@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -131,7 +131,7 @@
 		"compilationTarget": {
 			"contracts/BeanconUpgrade/DemoV1.sol": "Demo"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -152,11 +152,11 @@
 			]
 		},
 		"contracts/BeanconUpgrade/DemoV1.sol": {
-			"keccak256": "0x4f55b4aa806baaea94beed4950ba91bdff4cc38d23eed8d48e680ecae934c426",
+			"keccak256": "0x15ccb7ce85267688334f8c6ae8101a52c225402181e4ec75b21520e823f83425",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7a747a4a1358674429e9b7aa52ae36eab7c5a6cdbe2070fdb61c58d52234148c",
-				"dweb:/ipfs/QmZDwY5kGPg5LE9d2P6HjizoB63ZobNCtTAYpHt2T7j4zG"
+				"bzz-raw://66fde6768b93c7c4ad2343da5639bee04874fb830de5b5cfa6fd86b313a4cbc4",
+				"dweb:/ipfs/QmR4Mn2LjN3f9RU26CySYPWdEzxwhMc1WRtw4Vg6EaNGYU"
 			]
 		}
 	},
