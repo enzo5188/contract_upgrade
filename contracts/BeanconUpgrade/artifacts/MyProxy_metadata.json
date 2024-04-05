@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -115,6 +115,63 @@
 					}
 				],
 				"name": "BeaconUpgraded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "adr1",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "adr2",
+						"type": "address"
+					}
+				],
+				"name": "log1",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "adr1",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "adr2",
+						"type": "bytes"
+					}
+				],
+				"name": "log2",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes4",
+						"name": "sign1",
+						"type": "bytes4"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes4",
+						"name": "sign2",
+						"type": "bytes4"
+					}
+				],
+				"name": "log3",
 				"type": "event"
 			},
 			{
@@ -292,11 +349,11 @@
 			]
 		},
 		"contracts/BeanconUpgrade/MyProxy.sol": {
-			"keccak256": "0x043482ac83330a9b7f1b61a53fa5e89789ca010a8e2257af04d58057f44ca37a",
+			"keccak256": "0x21babd9639e8d77f7d7028343d671a560f275500547be9bde884d3decae14e80",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c57725b09c366f50f173a655dae49968ed0505ae5f754056e275c5bcaf92c501",
-				"dweb:/ipfs/QmZ9tXJBpAx88BNLSU45ms9PgRFa82QNzWMgsFFMVqWbga"
+				"bzz-raw://68c8e47e4989acecf9b81943bd97bfd573281a563e5c198e0935e85534c527d9",
+				"dweb:/ipfs/QmTPCXdqCzyffaQUbdHkudXgzn2vqafLsDuVyZLhNXrJup"
 			]
 		},
 		"contracts/BeanconUpgrade/MyProxyAdmin.sol": {

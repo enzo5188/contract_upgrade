@@ -9,7 +9,7 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 contract Demo is Initializable,UUPSUpgradeable,OwnableUpgradeable{
     uint256 public number;
     uint256 public number1;
-    // 0xfe4b84df000000000000000000000000000000000000000000000000000000000000006f
+    // 0xfe4b84df0000000000000000000000000000000000000000000000000000000000000378
     function initialize(uint256 _number) public reinitializer(2) {
         number1 = _number;
     }
@@ -27,16 +27,16 @@ contract Demo is Initializable,UUPSUpgradeable,OwnableUpgradeable{
     }
 
     function setNumber1() public onlyProxy{
-        number = number * 2;
+        number = number + 2;
     }
 
     function getSign(string memory str,uint256 _number) public pure returns(bytes memory){
         return _number == 0 ?abi.encodeWithSignature(str):abi.encodeWithSignature(str,_number);
     }
 
-    function helper() public  pure returns(bytes memory){
+    function helper(address addr_,bytes memory data) public  pure returns(bytes memory){
         // bytes memory bts = hex"fe4b84df000000000000000000000000000000000000000000000000000000000000006f";
-        return abi.encodeWithSignature("upgradeToAndCall(address,bytes)",0x20d7F8779F9f151E0DdA34C497782aF44dE2Fd2B,hex"fe4b84df000000000000000000000000000000000000000000000000000000000000006f");
+        return abi.encodeWithSignature("upgradeToAndCall(address,bytes)",addr_,data);
     }
 
     function _authorizeUpgrade(address newImplementation)

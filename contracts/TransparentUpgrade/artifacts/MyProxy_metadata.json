@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -305,11 +305,11 @@
 			]
 		},
 		"contracts/TransparentUpgrade/MyProxy.sol": {
-			"keccak256": "0xdbb04cd7246045a70bafedc412bcdba0022136e9c299ba83e73fd90c1bd97afb",
+			"keccak256": "0x16177e0b3b5963a45c8aeb8fa53301c498a57329cd3e7e0843878ec5a34afe05",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://46ac4ea123802e7de1cb244cbda340041ac0e329f56d2e7aacc2d46d21ec87ab",
-				"dweb:/ipfs/QmUbmTX3dsc8W7574Xit85qjSyhndhRTJNWiucKZhm6tXX"
+				"bzz-raw://8e9655bed0e9750ca0a3587a1b4fdd9abcd6f19b7125c2dbd1f237b2058ff088",
+				"dweb:/ipfs/QmQFgk1ZZVrDhbSuP7wD5y8pMRjnpuANi6iM8zAbWAxpJp"
 			]
 		}
 	},

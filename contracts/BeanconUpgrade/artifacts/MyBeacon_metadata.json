@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -197,7 +197,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BeanconUpgrade/MyBeacon1.sol": "MyBeacon"
+			"contracts/BeanconUpgrade/MyBeaconV2.sol": "MyBeacon"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -243,7 +243,7 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"contracts/BeanconUpgrade/MyBeacon1.sol": {
+		"contracts/BeanconUpgrade/MyBeaconV2.sol": {
 			"keccak256": "0xd1208875fa7ea92809cd43a3a5421b0197103ba88072dd079b8210c3d42f82f9",
 			"license": "GPL-3.0",
 			"urls": [

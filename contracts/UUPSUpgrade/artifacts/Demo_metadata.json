@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -194,7 +194,18 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr_",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
 				"name": "helper",
 				"outputs": [
 					{
@@ -414,7 +425,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/UUPSUpgrade/Demo2.sol": "Demo"
+			"contracts/UUPSUpgrade/DemoV2.sol": "Demo"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -500,12 +511,12 @@
 				"dweb:/ipfs/QmTHiadFCSJUPpRjNegc5SahmeU8bAoY8i9Aq6tVscbcKR"
 			]
 		},
-		"contracts/UUPSUpgrade/Demo2.sol": {
-			"keccak256": "0x7d985c5c2ce768fb138f6522ad015b6ff5e378018563867e78ff50836d192ab3",
+		"contracts/UUPSUpgrade/DemoV2.sol": {
+			"keccak256": "0x6f9c71bd60991ead340fb4ab03946dd433e9fce42347deae1164b231ef420c19",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a16b26f443447bc6227e4a5565f0487508077999d536ec46f17c60446e4b37f6",
-				"dweb:/ipfs/QmXDsuSeUGx5gE5nTdpr4Z4vUmmEg9YpP1wFMEvxQ3VpMy"
+				"bzz-raw://a8016ab0b447e48b2c6b1cc68b3dd3abede3af9396805cb5e30e033e66da49e8",
+				"dweb:/ipfs/QmdxDVEqfZv6TknACd7MGJ6EAq98zjDFhrfoLhNpC9GxxG"
 			]
 		}
 	},

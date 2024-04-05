@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -66,19 +66,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_number",
-						"type": "uint256"
-					}
-				],
-				"name": "initialize",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "number",
 				"outputs": [
@@ -129,7 +116,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BeanconUpgrade/DemoV1.sol": "Demo"
+			"contracts/BeanconUpgrade/DemoV2.sol": "Demo"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -151,12 +138,12 @@
 				"dweb:/ipfs/QmUvtdp7X1mRVyC3CsHrtPbgoqWaXHp3S1ZR24tpAQYJWM"
 			]
 		},
-		"contracts/BeanconUpgrade/DemoV1.sol": {
-			"keccak256": "0x15ccb7ce85267688334f8c6ae8101a52c225402181e4ec75b21520e823f83425",
+		"contracts/BeanconUpgrade/DemoV2.sol": {
+			"keccak256": "0xb3c687c4b7894e607228b8c163863cae446a2d6ed203dafcf3462f1a1c3847ea",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://66fde6768b93c7c4ad2343da5639bee04874fb830de5b5cfa6fd86b313a4cbc4",
-				"dweb:/ipfs/QmR4Mn2LjN3f9RU26CySYPWdEzxwhMc1WRtw4Vg6EaNGYU"
+				"bzz-raw://d86c9e4328b7f8f8a6fcacd3687e573e19642f98d050dc262b6188d52de01abd",
+				"dweb:/ipfs/QmV1D5NTDnHdDiG7urAtcGkGczu5bf7pkCWL2uUU3DkJAo"
 			]
 		}
 	},
