@@ -16,7 +16,7 @@ contract Demo is Initializable{
     }
 
     function setNumber() public{
-        number = number * 3;
+        number = number * 30;
     }
 
     function getSign(string memory str,uint256 value) public pure returns(bytes memory){
